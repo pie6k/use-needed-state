@@ -1,6 +1,8 @@
 # use-needed-state
 
-It looks the same as regualr `useState`, but it'll watch what parts of state were actually used during the render. If state is updated, but used part of state is equal - it'll skip re-render
+It looks the same as regualr `useState`, but it'll watch what parts of state were actually used during the render. 
+
+So even if you'll update using 'setState', but parts used during the render did not change (are equal) - it'll skip re-render
 
 ## example
 
