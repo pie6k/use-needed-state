@@ -4,6 +4,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
+  "author": {
+    "email": "adam@pietrasiak.com",
+    "name": "Adam Pietrasiak",
+    "url": "https://github.com/pie6k"
+  },
+  "homepage": "https://github.com/pie6k/use-needed-state",
   "scripts": {
     "build": "rimraf dist && tsc"
   },
@@ -13,7 +19,7 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.*"
   },
   "dependencies": {
     "proxyequal": "^2.1.2"
