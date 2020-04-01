@@ -1,0 +1,21 @@
+{
+  "name": "use-needed-state",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.31",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "proxyequal": "^2.1.2"
+  }
+}

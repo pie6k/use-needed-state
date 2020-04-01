@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": false,
+    "lib": ["es2015", "esnext.asynciterable", "dom", "es7"],
+    "downlevelIteration": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "."
+  },
+  "include": ["./src", "./types"],
+  "exclude": [
+    "./node_modules/*",
+    "./dist",
+    "./src/**/*.html",
+    "./src/demo",
+    "./src/__tests__",
+    "./src/**/*.spec.ts"
+  ]
+}
